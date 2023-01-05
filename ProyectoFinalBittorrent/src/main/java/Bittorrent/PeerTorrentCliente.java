@@ -75,7 +75,7 @@ public class PeerTorrentCliente {
         
         //System.out.println("Escoga el destino para recuperar el archivo: ");
         //String rutaDestino = scan.next();
-        lugardestino = new FileOutputStream("D:\\Documentos\\7TIMO SEMESTRE\\SISTEMAS DISTRIBUIDOS\\ProyectoFinalBittorrent\\archivos\\Descarga_"+ArchivoOb); 
+        lugardestino = new FileOutputStream("archivos\\Descarga_"+ArchivoOb); 
         archivosalida = new BufferedOutputStream(lugardestino);
         archivoentrada = new BufferedInputStream(conexion.getInputStream());
         //Procedemos a realizar la apertura del archivo hacia el servidor
@@ -155,7 +155,7 @@ public class PeerTorrentCliente {
         
         //System.out.println("Escoga el destino para recuperar el archivo: ");
         //String rutaDestino = scan.next();
-        lugardestino = new FileOutputStream("D:\\Documentos\\7TIMO SEMESTRE\\SISTEMAS DISTRIBUIDOS\\ProyectoFinalBittorrent\\archivos\\Descarga_"+ArchivoOb); 
+        lugardestino = new FileOutputStream("archivos\\Descarga_"+ArchivoOb); 
         archivosalida = new BufferedOutputStream(lugardestino);
         archivoentrada = new BufferedInputStream(conexion.getInputStream());
         //Procedemos a realizar la apertura del archivo hacia el servidor
